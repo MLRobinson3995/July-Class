@@ -42,13 +42,19 @@ var sub = function(x, y) {
 
 //add
 
-var add = function(x, y) {};
+var add = function(x, y) {
+	
+	var end;
+	end = (x + y);
+	return end;
+	
+};
 
 //prompts
 
+i = parseInt(prompt("What is the operation?\n1.Division\n2.Multiplication\n3.Subtraction\n4.Addition\nEnter the number shown. "));
 num1 = parseInt(prompt("What is the first number?", "0"));
 num2 = parseInt(prompt("What is the secound number?", "0"));
-i = parseInt(prompt("What is the operation?\n1.Division\n2.Multiplication\n3.Subtraction\n4.Addition\nEnter the number shown. "));
 
 if (i === 1) {
 	
@@ -66,6 +72,9 @@ if (i === 1) {
 	
 	operation = add(num1, num2);
 	
+} else {
+	
+	console.log("You did not select an operation.\nTry again with one of the options presented.");
 }
 
 
@@ -94,5 +103,6 @@ if (i === 1) {
 	
 } else if (i === 4){
 	
+	console.log (num1 + " add " + num2 + " equals " + operation);
 	
 }
