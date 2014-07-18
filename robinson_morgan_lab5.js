@@ -1,4 +1,4 @@
-//  Morgan Robinson
+///  Morgan Robinson
 //  07/17/2014
 // Scalable Data Infrastructures 1407
 //  Day 5 Lab
@@ -32,7 +32,13 @@ var mul = function(x, y) {
 
 //subract
 
-var sub = function(x, y) {};
+var sub = function(x, y) {
+	
+	var end;
+	end = (x - y);
+	return end;
+	
+};
 
 //add
 
@@ -84,7 +90,7 @@ if (i === 1) {
 	
 } else if (i === 3){
 	
-	
+	console.log (num1 + " subtract " + num2 + " equals " + operation);
 	
 } else if (i === 4){
 	
