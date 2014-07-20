@@ -4,7 +4,8 @@
 //  Day 5 Lab
 
 var realName,
-	alias;
+	alias,
+	i;
 	
 
 var hero = function() {
@@ -18,3 +19,9 @@ var civilan = function() {
 	var secretIdnetity = new Array ("Clark Kent", "Bruce Wayne", "Diana Prince", "Barry Allen", "John Jones", "Arthor Curry", "Carter Hall");
 			
 };
+
+i = 0;
+
+while(i < hero[i]);
+
+i++;
