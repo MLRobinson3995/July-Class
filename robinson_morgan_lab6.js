@@ -1,27 +1,34 @@
 ///  Morgan Robinson
-//  07/17/2014
+//  07/19/2014
 // Scalable Data Infrastructures 1407
-//  Day 5 Lab
+//  Day 6 Lab
 
-var realName,
-	alias,
+var alias,
+	realName,
 	i;
 	
 
 var hero = function() {
 	
-	var heroName = new Array ("Superman", "Batman", "Wonder Woman", "Flash", "Martian Manhunter", "Aquaman", "Hawkman");
-			
+	var heroName = new Array("Superman", "Batman", "Wonder Woman", "Flash", "Martian Manhunter", "Aquaman", "Hawkman");
+	return heroName;
 };
 
-var civilan = function() {
+var civilian = function() {
 	
-	var secretIdnetity = new Array ("Clark Kent", "Bruce Wayne", "Diana Prince", "Barry Allen", "John Jones", "Arthor Curry", "Carter Hall");
-			
+	var secretIdentity = new Array("Clark Kent", "Bruce Wayne", "Diana Prince", "Barry Allen", "John Jones", "Arthor Curry", "Carter Hall");
+	return secretIdentity;
+	
 };
 
-i = 0;
+alias = hero();
+realName = civilian();
 
-while(i < hero[i]);
+alias.push("Cyborg");
+realName.push("Victor Stone");
 
-i++;
+for (i = 0; i < alias.length; i++) {
+	
+	console.log (alias[i] + "'s civilain name is " + realName[i]);
+	
+};
