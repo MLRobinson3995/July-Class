@@ -3,7 +3,7 @@ var jsonData = {
 	"animals": 
 	[ 
 		{
-			"name": "Cheetah",
+			"comName": "cheetah",
 			"sciName": "Acinonyx jubatus",
 			"topSpeed": 75
 		
@@ -11,26 +11,26 @@ var jsonData = {
 			
 		},
 		{
-			"name": "Peregirn Falcon",
+			"comName": "peregirn falcon",
 			"sciName": "Falco peregrinus",
 			"topSpeed": 242
 			
 			
 		},
 		{
-			"name": "Black Marlin",
+			"comName": "black marlin",
 			"sciName": "Istiompax indica",
 			"topSpeed": 80
 		
 		},
 		{
-			"name": "Horse fly",
+			"comName": "horse fly",
 			"sciName": "family Tabanidae",
-			"topSpeed": 90"
+			"topSpeed": 90
 			
 		},
 		{
-			"name": "Mexican Free-Tailed Bat ",
+			"comName": "mexican free-tailed bat ",
 			"sciName": "Tadarida brasiliensis",
 			"topSpeed": 60
 			
