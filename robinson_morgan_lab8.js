@@ -5,6 +5,14 @@
 
 //problem 1
 
+var text = "thisaddress@gmail.com";
 
+var addConfirm = function(address) {
+	
+	
+	
+};
+
+addConfirm(text);
 
 //problem 2
